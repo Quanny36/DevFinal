@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
+body {
+	background-color: white;
+}
+
+.navHead{
+  text-align:center;
+  font-family:'Bungee Shade', cursive;
+}
+header {
+	display: block;
+}
+
+.heading {
+  font-family:'Bungee Shade', cursive;
+  font-size: 4rem;
+  color: purple;
+  margin-bottom: 3rem;
+}
+
+.good {
+  font-family:'Bungee Shade', cursive;
+  font-size: 2rem;
+  color: purple;
+  margin-left: -3%;
+  marin-bottom: 2rem;
+}
+
+button {
+	padding: 1px;
+	width: 10rem;
+	height: 4rem;
+	font-size: 1rem;
+	background-color: white;
+	border: solid black;
+	border-radius: 2rem;
+  margin-top: 1rem;
+  font-family:'Bungee Shade', cursive;
+  color:purple;
+}
+
+button:hover {
+	background-color: gray;
+}
+
+.repo {
+  width: 20rem;
+  font-size:1.4rem;
+  background-color: black;
+  color:white;
+  height: 3rem;
+  margin-left: 10%;
+}
+
+.nu {
+  width: 20rem;
+  font-size:1.4rem;
+  background-color: black;
+  color:white;
+  height: 3rem;
+  margin-left: 20%;
+}
+
+.wave {
+  width: 20rem;
+  font-size:1.4rem;
+  background-color: black;
+  color:white;
+  height: 3rem;
+  margin-left: 30%;
+}
+
+.container {
+  width: 100%;
+  height: 50%;
+}
+
+.navbar navbar-expand-md navbar-dark fixed-top bg-dark, h1 {
+  text-align: center;
+  color: white;
+}
+
+.jumbotron {
+  background-color: white;
+  width:100%
+}
+
+.box {
+  margin: 0 auto;
+}
+
+.name {
+  font-family:'Bungee Shade', cursive;
+  font-size: 6rem;
+  color: purple;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.odd {
+  border: solid black 2px;
+  height: 80px;
+  width: 60px;
+  background-color: #20d6ff;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.even {
+  border: solid black 2px;
+  height: 80px;
+  width: 60px;
+  background-color: #8a1cff;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.evensPlace {
+  border: solid black 2px;
+  height: 140px;
+  width: 90px;
+  background-color: #20d6ff;
+  postion: absolute;
+  text-align: center;
+  margin-left: 22.5%;
+  border-radius: 10%;
+}
+
+.oddsPlace {
+  border: solid black 2px;
+  height: 140px;
+  width: 90px;
+  background-color: #8a1cff;
+  postion: absolute;
+  text-align: center;
+  margin-left: 44.5%;
+  border-radius: 10%;
+}
+
+#success, #correct {
+  margin-left: 45%
+}
+
+.place {
+  margin: 0 auto;
+}
